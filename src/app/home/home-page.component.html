@@ -1,0 +1,74 @@
+<div>
+    <header>
+        <h4 class="middle greeting">Hello, my name is {{name}}!</h4>
+    </header>
+</div>
+<div>
+    <p class="middle">I am an aspiring software developer and a student at Harvard University. I have created this website to document my projects and share a bit about myself along the way.
+    </p>
+</div>
+<hr class="dotted">
+<a name="projects" class="anchor projects"></a>
+<div>
+    <h5 class="middle">Projects</h5>
+    <p class="middle">Listed below are some of my projects! Click on the images to learn more.</p>
+    <div class="grid-container middle">
+        <div class="grid-item" *ngFor='let project of info'>
+            <a [href]="project.link" target="_blank" class="link">
+                <img (mouseover)="toggleImageTo(project.id)" (mouseout)="toggleImageFrom(project.id)" class="image" [id]="project.id" [src]="project.picUrl" alt="Relevant image." width="200" height="200">
+                <h6 style="margin-top: 5px;">{{project.name}}</h6>
+            </a>
+            <p style="margin-right: 15px; margin-left: 15px;">{{project.description}}</p>
+        </div>
+    </div>  
+</div>
+<a name="experience" class="anchor xp"></a>
+<hr class="dotted">
+<div>
+    <h5 class="middle">Experience</h5>
+    <p class="middle">Shown here are some relevant positions and their respective responsibilities!</p>
+    <div class="row experience float-container middle hvr-reveal" *ngFor='let role of xp'>
+        <div class="float-child one">
+            <img [src]="role.imageUrl" alt="Logo" width="100" class="logo">
+        </div>
+        <div class="float-child two">
+            <div class="row">
+                <p class="main-info"><b>Organization:</b> {{role.organization}}  |   <b>Position:</b> {{role.position}}  |  <b>Location:</b> {{role.location}}  |   <b>Dates:</b> {{role.dateRange}}</p>
+            </div>
+            <div class="row">
+                <p>{{role.responsibilities}}</p>
+
+            </div>
+         </div>
+    </div>
+</div>
+<hr class="dotted">
+<a name="about"></a>
+<div>
+    <h5 class="middle">About</h5>
+    <div class="float-container middle about">
+        <div class="float-child about">
+            <div class="hvr-sweep-to-right">
+                <p>
+                    Hi! My name is Lily, and I am currently a sophomore at Harvard University. While I initially planned to concentrate in electrical engineering, I soon became drawn to the creativity, flexibility, and challenge of computer science and related fields.
+                </p>
+                <p>
+                    Currently, I am taking every opportunity-classes, internships, research, self-teaching-to expand my knowledge, to refine my skills, and to plan for the future. 
+                    Here are a few skills/technologies that I've worked with the most:
+                </p>
+            </div>
+            <div class="hvr-sweep-to-right">
+                <p>
+                    <b style="font-weight: 400 !important; color: black;" class="hvr-grow">C/C++   |   Python   |   HTML   |   CSS   |   JavaScript/TypeScript   |   Angular   |   SQL</b>
+                </p>
+            </div>
+            <div class="hvr-sweep-to-right">
+                <p>Thank you for visiting my website! Please feel free to contact me through the mediums listed above. I am always open to new opportunities (or even just a friendly chat).</p>
+            </div>
+        </div>
+        <div class="float-child portrait">
+            <img [src]="portrait" width="250" alt="Portrait" class="portrait">
+        </div>
+    </div>
+</div>
+<hr class="dotted">

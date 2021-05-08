@@ -1,0 +1,26 @@
+[
+    {
+        "organization": "CS50",
+        "position": "Course Assistant",
+        "dateRange": "Aug. 2021-Dec. 2021",
+        "location": "Cambridge, MA",
+        "responsibilities": "As a CS50 course assistant, I have educated CS50 students through tutorials, office hours, and other necessary avenues, managed CS50 events such as Puzzle Day, Hackathon, the CS50 Fair, et cetera, and collaborated with fellow CS50 staffers on a weekly basis and planned how to best help the students.",
+        "imageUrl": "https://i.ibb.co/P4RZBBK/68747470733a2f2f63726f7764696e2d7374617469632e646f776e6c6f6164732e63726f7764696e2e636f6d2f696d616765.png"
+    },
+    {
+        "organization": "Edison Chouest Offshore",
+        "position": "Engineering Intern",
+        "dateRange":"Aug. 2020-Apr. 2021",
+        "location": "Cut Off, LA",
+        "responsibilities": "As an ECO engineering intern, I created databases of ship drawings and models using Excel and SQL-like custom ECO program, which were to be used by an office of 50+ employees. Furthermore, I measured and modeled ship hulls using software such as Modelmaker, Autohydro, and Autocad, collaborated with a team of naval engineers to model sounding pipes, among other interior ship parts, up to U.S. Coast Guard and American Bureau of Shipping standards, analyzed engineering plans to find any possible faults and errors in estimation, and refined electrical engineering skills through company readings and application.",
+        "imageUrl": "https://i.ibb.co/ZHXnLRd/1592228210225.jpg"
+    },
+    {
+        "organization": "Harvard Undergraduate Robotics Club",
+        "position": "Programmer/Builder",
+        "dateRange": "Jan. 2020-Present",
+        "location": "Cambridge, MA",
+        "responsibilities": "As a member of the HURC team, I took part in designing and constructing the light and proximity-sensitive robot Pac-Bot in preparation for intercollegiate robotics competition to replicate the game Pac-Man, as well as programming the robot in Python using object-oriented programming.",
+        "imageUrl": "https://i.ibb.co/W5nPVrd/Webp-net-resizeimage.png"
+    }
+]

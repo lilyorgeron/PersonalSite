@@ -1,0 +1,46 @@
+
+.navbar {
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    margin-right: 90px;
+    margin-left: 0px;
+    top: 0;
+    opacity: 100%;
+    /* width: 95%; */
+    }
+
+.container-fluid {
+    position: fixed;
+    z-index: 10;
+    width: 95%;
+    padding: 0px;
+    /* margin-right: 50px !important; */
+}
+    
+.fab:hover, .fas:hover, .nav-link:hover {
+    color: rgb(72, 52, 97);
+}
+
+.home-tab {
+    margin-right: 0px;
+}
+
+.body {
+    font-family: "Andale Mono", monospace;
+    font-weight: 5;
+    background-color: white;
+    margin-right: 75px;
+}
+
+a.navbar.resume {
+    font-weight: bolder;
+    border: solid black;
+}
+
+.word-link {
+    color: black;
+    margin-left: 10px;
+    margin-right: 75px;
+}
+
+

@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Apptivism",
+        "id": "1",
+        "description": "Apptivism is an app currently in the works that will connect users and organized events in order to promote community engagement and civic action.",
+        "picUrl": "https://i.ibb.co/N9GZ1Vm/giphy.jpg",
+        "gifUrl": "https://i.ibb.co/7YFkJM5/giphy.gif",
+        "link": ""
+    },
+    {
+        "name": "Horizons",
+        "id": "2",
+        "description": "For our CS50 final projects, my two groupmates and I created a website, called Horizons, that shows the user the top ten songs, books, and films from their chosen country, allowing for a more empathetic and curious traveller.",
+        "picUrl": "https://i.ibb.co/C2m2rjG/tenor.jpg",
+        "gifUrl": "https://i.ibb.co/KXJST6Z/ezgif-com-gif-maker.gif",
+        "link": "https://github.com/lilyorgeron/CS50FinalProject"
+    },
+    {
+        "name": "Python Blackjack Game",
+        "id": "3",
+        "description": "This Blackjack game was created as a milestone project for the Udemy Complete Python Bootcamp. Its purpose is to emmulate a game of Blackjack through the Jupyter Notebook interface.",
+        "picUrl": "https://i.postimg.cc/GtyTHZPw/Blackjack-icon.png",
+        "gifUrl": "https://i.ibb.co/YdygFqt/fyNG.gif",
+        "link": "https://github.com/lilyorgeron/BlackJack-Card-Game"
+    }
+]
