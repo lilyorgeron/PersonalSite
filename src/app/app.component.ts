@@ -12,5 +12,5 @@ export class AppComponent {
   resume: string = 'https://drive.google.com/file/d/13BTq44jxns_GqGaeAqMnJuoeuw2wMJXe/view?ths=true';
   email: string = 'mailto: lilyorgeron@college.harvard.edu';
   github: string = 'https://github.com/lilyorgeron';
-  linkedIn: string = 'https://linkedin.com/in/lily-orgeron-24504a201';
+  linkedIn: string = 'www.linkedin.com/in/lilyorgeron';
 }
