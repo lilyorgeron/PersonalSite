@@ -5,7 +5,7 @@
     margin-right: 86.5px;
     margin-left: 0px;
     top: 0;
-    opacity: 100%;
+    opacity: 100% !important;
     }
 
 .container-fluid {
