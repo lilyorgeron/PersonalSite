@@ -6,6 +6,7 @@ import { ProjectInfo } from './project';
 import { ProjectService } from './project.service';
 
 @Component({
+  selector: 'ps-home',
   templateUrl: './home-page.component.html',
   styleUrls: ['./home-page.component.css']
 })

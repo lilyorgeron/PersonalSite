@@ -1,7 +1,7 @@
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule } from '@angular/router';
+// import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './home/home-page.component';
@@ -13,12 +13,11 @@ import { HomePageComponent } from './home/home-page.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule,
-    RouterModule.forRoot([
-      { path: 'home', component: HomePageComponent },
-      { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: '**', redirectTo: 'home', pathMatch: 'full' }
-    ])
+    HttpClientModule
+    // RouterModule.forRoot([
+    //   { path: '', component: HomePageComponent },
+    //   { path: '**', redirectTo: '', pathMatch: 'full' }
+    // ])
   ],
   bootstrap: [AppComponent]
 })
